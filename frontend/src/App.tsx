@@ -17,7 +17,7 @@ export const App: React.FC = () => {
   const [sessionId, setSessionId] = useState<string>("");
   const [isPending, startTransition] = useTransition();
   const [messages, setMessages] = useState<Message[]>([]);
-  const [forceMock, setForceMock] = useState<boolean>(true); // Default: local simulator
+  const [forceMock, setForceMock] = useState<boolean>(false); // Default: Live AI Pipeline
 
   // History state
   const [history, setHistory] = useState<ChatSession[]>([]);
