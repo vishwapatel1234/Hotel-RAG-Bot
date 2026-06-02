@@ -90,13 +90,13 @@ class ConfidenceEngine:
         # 2. Calculate Category Relevance (30% weight)
         # Category aliases representing semantically overlapping categories to prevent false refusals
         aliases = {
-            "policies": ["policies", "general_information", "faq"],
-            "rooms": ["rooms", "general_information", "faq", "amenities"],
-            "amenities": ["amenities", "general_information", "faq", "services", "transportation"],
-            "restaurants": ["restaurants", "general_information", "faq", "dining"],
+            "policies": ["policies", "general_information", "faq", "rooms", "payments"],
+            "rooms": ["rooms", "general_information", "faq", "amenities", "policies", "restaurants"],
+            "amenities": ["amenities", "general_information", "faq", "services", "transportation", "rooms"],
+            "restaurants": ["restaurants", "general_information", "faq", "dining", "rooms"],
             "transportation": ["transportation", "general_information", "faq", "amenities"],
-            "services": ["services", "general_information", "faq", "amenities"],
-            "payments": ["payments", "general_information", "faq", "pricing"]
+            "services": ["services", "general_information", "faq", "amenities", "policies"],
+            "payments": ["payments", "general_information", "faq", "pricing", "policies"]
         }
 
         # If expected category is None (neutral generic), or if chunk is a general FAQ, or matches expected alias

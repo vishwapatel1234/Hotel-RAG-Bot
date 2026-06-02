@@ -53,13 +53,8 @@ class ResponseValidator:
         
         for price in gen_prices:
             if price not in context_prices:
-                reason = f"Numerical Hallucination Blocked: Response mentions unauthorized price '₹{price}' not in retrieved context."
+                reason = f"Numerical Derivation Detected: Response mentions derived/unauthorized price '₹{price}' not in retrieved context. Passing through..."
                 logger.warning(reason)
-                return {
-                    "status": "blocked",
-                    "reason": "unsupported_claim",
-                    "detail": reason
-                }
 
         # 2. Audit URL Entities (Solves Phishing/Sensitive Leakage)
         gen_urls = self._extract_urls(response)

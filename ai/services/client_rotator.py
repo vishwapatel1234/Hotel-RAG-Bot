@@ -29,11 +29,11 @@ class GeminiClientRotator:
         if not self.api_keys:
             raise ValueError("GeminiClientRotator requires at least one active API key.")
         
-        # Sequence of models to fall back through (3.0/2.5 Level -> 2.0 Level -> 1.5 Level)
+        # Sequence of models to fall back through (3.0/2.5 Level -> 1.5 Level)
         self.models_sequence = [
             "models/gemini-2.5-flash",
-            "models/gemini-2.0-flash",
-            "models/gemini-2.5-flash"
+            "models/gemini-1.5-flash",
+            "models/gemini-1.5-pro"
         ]
         
         # Keep track of active indices
