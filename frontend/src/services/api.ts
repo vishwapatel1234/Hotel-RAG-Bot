@@ -450,6 +450,17 @@ const buildResponse = (topChunk: RetrievedChunk, queryClean: string, lang: Langu
   const sub = topChunk.subsection;
   const content = topChunk.content;
 
+  // ── CHECK-IN / CHECK-OUT COMBINED ──
+  const asksBoth = queryClean.match(/\b(check.?in|arrive|arrival|early check)\b/i) && queryClean.match(/\b(check.?out|leave|departure|late check|extend)\b/i);
+  if (asksBoth && (sub === "checkout_time" || sub === "checkin_time")) {
+    if (lang === "hindi") {
+      return "StayChat ग्रैंड होटल में **चेक-इन** का समय **दोपहर 2:00 बजे** है और **चेक-आउट** का समय **दोपहर 12:00 बजे** है।\n\n* **अर्ली चेक-इन / लेट चेक-आउट**: उपलब्धता पर निर्भर करता है और इसके लिए अतिरिक्त शुल्क लागू हो सकता है।";
+    } else if (lang === "hinglish") {
+      return "StayChat Grand Hotel mein **check-in** dopahar **2:00 PM** aur **check-out** dopahar **12:00 PM** hai.\n\n* **Early check-in / Late check-out**: Availability par depend karta hai aur extra charges lag sakte hain.";
+    }
+    return "At StayChat Grand Hotel:\n\n* **Check-in time**: 2:00 PM onwards\n* **Check-out time**: 12:00 PM (noon)\n\n*Early check-in and late check-out are subject to availability and may incur additional charges.*";
+  }
+
   // ── CHECKOUT ──
   if (sub === "checkout_time") {
     if (lang === "hindi") {
@@ -467,6 +478,33 @@ const buildResponse = (topChunk: RetrievedChunk, queryClean: string, lang: Langu
     } else if (lang === "hinglish") {
       return "StayChat Grand Hotel mein **check-in** dopahar **2:00 PM** se start hota hai.\n\n* **Early check-in** availability ke basis par milti hai.\n* Check-in ke liye valid government ID required hai.\n* Minimum age **18 years** honi chahiye.";
     }
+    return content;
+  }
+
+  // ── INDIVIDUAL ROOMS ──
+  if (sub === "standard_room") {
+    if (lang === "hindi") return "Standard Room का किराया **₹4,500 प्रति रात** है (2 मेहमानों के लिए)। इसमें मुफ्त WiFi, TV, मिनीबार और वर्क डेस्क शामिल है।";
+    if (lang === "hinglish") return "Standard Room ka kiraya **₹4,500 per raat** hai (2 guests ke liye). Isme free WiFi, TV, minibar aur work desk shamil hai.";
+    return content;
+  }
+  if (sub === "deluxe_room") {
+    if (lang === "hindi") return "Deluxe Room का किराया **₹7,000 प्रति रात** है (3 मेहमानों के लिए)। इसमें शानदार सिटी व्यू और किंग-साइज़ बेड शामिल है।";
+    if (lang === "hinglish") return "Deluxe Room ka kiraya **₹7,000 per raat** hai (3 guests ke liye). Isme city view aur king-size bed shamil hai.";
+    return content;
+  }
+  if (sub === "executive_room") {
+    if (lang === "hindi") return "Executive Room का किराया **₹9,500 प्रति रात** है (3 मेहमानों के लिए)। इसमें विशेष एग्जीक्यूटिव लाउंज एक्सेस शामिल है।";
+    if (lang === "hinglish") return "Executive Room ka kiraya **₹9,500 per raat** hai (3 guests ke liye). Isme exclusive executive lounge access shamil hai.";
+    return content;
+  }
+  if (sub === "executive_suite") {
+    if (lang === "hindi") return "Executive Suite का किराया **₹12,000 प्रति रात** है (4 मेहमानों के लिए)। इसमें अलग बैठक और शयन कक्ष के साथ लाउंज एक्सेस भी है।";
+    if (lang === "hinglish") return "Executive Suite ka kiraya **₹12,000 per raat** hai (4 guests ke liye). Isme alag living aur sleeping areas aur lounge access shamil hai.";
+    return content;
+  }
+  if (sub === "family_suite") {
+    if (lang === "hindi") return "Family Suite का किराया **₹15,000 प्रति रात** है (5 मेहमानों के लिए)। यह बड़े परिवारों के लिए एकदम सही है।";
+    if (lang === "hinglish") return "Family Suite ka kiraya **₹15,000 per raat** hai (5 guests ke liye). Yeh families ke liye perfect hai!";
     return content;
   }
 
