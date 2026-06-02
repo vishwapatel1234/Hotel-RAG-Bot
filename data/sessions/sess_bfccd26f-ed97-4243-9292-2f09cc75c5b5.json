@@ -1,0 +1,21 @@
+{
+  "session_id": "bfccd26f-ed97-4243-9292-2f09cc75c5b5",
+  "created_at": 1780391369.3232374,
+  "last_activity": 1780391369.3860393,
+  "messages": [
+    {
+      "role": "user",
+      "content": "What time is check-out?",
+      "timestamp": 1780391369.3690164,
+      "intent": "unknown",
+      "language": "english"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have that information right now. Let me connect you with our staff at the front desk, or you can call us at +91-22-5555-1234.",
+      "timestamp": 1780391369.3860393,
+      "intent": "unknown",
+      "language": "english"
+    }
+  ]
+}

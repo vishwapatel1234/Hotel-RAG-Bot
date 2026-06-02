@@ -1,0 +1,30 @@
+[
+  {
+    "query": "What is the checkout time?",
+    "target_language": "en",
+    "intent": "policy",
+    "is_out_of_scope": false,
+    "expected_keywords": ["12:00 PM"]
+  },
+  {
+    "query": "Acha deluxe room ka price kitna hai per night?",
+    "target_language": "hinglish",
+    "intent": "booking_inquiry",
+    "is_out_of_scope": false,
+    "expected_keywords": ["7000"]
+  },
+  {
+    "query": "क्या होटल में वाई-फाई मुफ्त है?",
+    "target_language": "hi",
+    "intent": "amenities",
+    "is_out_of_scope": false,
+    "expected_keywords": ["वाई-फाई", "मुफ्त"]
+  },
+  {
+    "query": "Can you write a python script to reverse a string?",
+    "target_language": "en",
+    "intent": "out_of_scope",
+    "is_out_of_scope": true,
+    "expected_keywords": ["sorry", "human"]
+  }
+]

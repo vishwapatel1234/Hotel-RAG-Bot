@@ -1,0 +1,848 @@
+[
+  {
+    "chunk_id": "b4ed4351317f8bd4931c6a83f6b50a20b8ff07ac6cbe00e16f9a1a0dfa99e641",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "pricing",
+    "raw_text": "Standard Room costs ₹4500 per night and accommodates 2 guests.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: pricing] Standard Room costs ₹4500 per night and accommodates 2 guests.",
+    "content_length": 62
+  },
+  {
+    "chunk_id": "5b87cd00db29342864325941324af43f54179d816139a2635c6ef56120071e0d",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "internet",
+    "raw_text": "Standard Room includes complimentary WiFi, television, minibar, and work desk.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: internet] Standard Room includes complimentary WiFi, television, minibar, and work desk.",
+    "content_length": 78
+  },
+  {
+    "chunk_id": "d1171baed20c09a18d6a63b39c536e19fbb4c0e132a8d0353cbc02ba64993725",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "pricing",
+    "raw_text": "Deluxe Room costs ₹7000 per night and accommodates 3 guests.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: pricing] Deluxe Room costs ₹7000 per night and accommodates 3 guests.",
+    "content_length": 60
+  },
+  {
+    "chunk_id": "a68ab64ba8f014fbc5ae9a4ee87b2660d34f7089bce42440a0cf95925410f0e7",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "rooms",
+    "raw_text": "Deluxe Room includes city-view windows and a king-size bed.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: rooms] Deluxe Room includes city-view windows and a king-size bed.",
+    "content_length": 59
+  },
+  {
+    "chunk_id": "1689b9fce46fabc1c5daaa78d875605a739ffe662b189cf7c196c6bdfd9b999d",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "dining",
+    "raw_text": "Executive Room costs ₹9500 per night and includes executive lounge access.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: dining] Executive Room costs ₹9500 per night and includes executive lounge access.",
+    "content_length": 74
+  },
+  {
+    "chunk_id": "5b77952b2524841ca57c4dbb18562d1e40a3763657439128b921cd64a00731fd",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "rooms",
+    "raw_text": "Executive Room accommodates up to 3 guests.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: rooms] Executive Room accommodates up to 3 guests.",
+    "content_length": 43
+  },
+  {
+    "chunk_id": "6f785ecadccba276e278a45048bf76a71f1e1ab8fd833810e90127a430b2c081",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "pricing",
+    "raw_text": "Executive Suite costs ₹12000 per night and accommodates 4 guests.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: pricing] Executive Suite costs ₹12000 per night and accommodates 4 guests.",
+    "content_length": 65
+  },
+  {
+    "chunk_id": "f1aa48984229474738e453b7fe843be925c429fb2369112436187a6f4d2644b3",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "rooms",
+    "raw_text": "Executive Suite includes separate living and sleeping areas.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: rooms] Executive Suite includes separate living and sleeping areas.",
+    "content_length": 60
+  },
+  {
+    "chunk_id": "f5d17f7f056de4634aed5446322fce72bbbcd0d87f3aabda29a7bceaca9e7851",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "pricing",
+    "raw_text": "Family Suite costs ₹15000 per night and accommodates 5 guests.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: pricing] Family Suite costs ₹15000 per night and accommodates 5 guests.",
+    "content_length": 62
+  },
+  {
+    "chunk_id": "002c9c5507f27f2ac80abdbdc6d2040f14b26cc47c1f9e10efb78fe6553d7f94",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "rooms",
+    "subsection": "pricing",
+    "raw_text": "Extra bed costs ₹1500 per night.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: rooms] [Subsection: pricing] Extra bed costs ₹1500 per night.",
+    "content_length": 32
+  },
+  {
+    "chunk_id": "ae6684ffbac4c05cd083e21388d7c2aa68284dfa0e2af36e5a4a6b3f1bdaf7ff",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "recreation",
+    "raw_text": "The rooftop infinity pool operates from 7:00 AM to 10:00 PM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: recreation] The rooftop infinity pool operates from 7:00 AM to 10:00 PM.",
+    "content_length": 60
+  },
+  {
+    "chunk_id": "b60367f41ce63ec5bb764a06903ffa0a04214af22473001626f7bb98e1505c67",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "hours",
+    "raw_text": "The fitness center operates 24 hours a day.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: hours] The fitness center operates 24 hours a day.",
+    "content_length": 43
+  },
+  {
+    "chunk_id": "4bb86703303a0c1392afc6b81816a7fa7ac1786cd3098a2553e4fb7d5c71db92",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "recreation",
+    "raw_text": "Spa services are available from 9:00 AM to 9:00 PM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: recreation] Spa services are available from 9:00 AM to 9:00 PM.",
+    "content_length": 51
+  },
+  {
+    "chunk_id": "5be2bae47ed739520bab96f3e5f96889e4597f2ee580c89ba70980e4401b4f49",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "recreation",
+    "raw_text": "Steam room access is complimentary for hotel guests.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: recreation] Steam room access is complimentary for hotel guests.",
+    "content_length": 52
+  },
+  {
+    "chunk_id": "3f6e08d9c1e176cf7aa17c2d69dc31053758c5ac58bb4a8c2e73ee30eb507c3d",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "recreation",
+    "raw_text": "Sauna access is complimentary for hotel guests.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: recreation] Sauna access is complimentary for hotel guests.",
+    "content_length": 47
+  },
+  {
+    "chunk_id": "4dafc970ae38faf272190e92f9876af18e76ee7531215faf19325c59caea8d1e",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "hours",
+    "raw_text": "Business center operates 24 hours a day.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: hours] Business center operates 24 hours a day.",
+    "content_length": 40
+  },
+  {
+    "chunk_id": "ba65138c9560b694bc33233cce634c186cf3bedb7c6a34086fed0911e364fb2a",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "rooms",
+    "raw_text": "Meeting rooms are available upon reservation.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: rooms] Meeting rooms are available upon reservation.",
+    "content_length": 45
+  },
+  {
+    "chunk_id": "c272e06089298de199dc9b422b051ec28eddf4717f87f9a61e1447a223df281e",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "internet",
+    "raw_text": "High-speed WiFi is complimentary.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: internet] High-speed WiFi is complimentary.",
+    "content_length": 33
+  },
+  {
+    "chunk_id": "4bcc3fb1cf62a783a5e4f23b07b0ea065d1f6b0fcef801e9d1a3bfd2ff9f1235",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Laundry service is available daily.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Laundry service is available daily.",
+    "content_length": 35
+  },
+  {
+    "chunk_id": "f5261a57b18b2d491c63f1340e483c99206d84a47f4fd75750ed4c278a28bb1b",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Dry cleaning service is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Dry cleaning service is available.",
+    "content_length": 34
+  },
+  {
+    "chunk_id": "a69882f74519be72eaa564c240255f3f6d9f6308243232047fbde018e6984156",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Daily housekeeping is provided.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Daily housekeeping is provided.",
+    "content_length": 31
+  },
+  {
+    "chunk_id": "ad5ecf38c4901e870ff88fc7d97f400c9175388489c8e1a0960c8371baed251a",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Valet parking is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Valet parking is available.",
+    "content_length": 27
+  },
+  {
+    "chunk_id": "88c752ed8ff4e28a38e420e107c259afacafc1ff2c5a147be7105d9681bba311",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "EV charging stations are available in the parking area.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] EV charging stations are available in the parking area.",
+    "content_length": 55
+  },
+  {
+    "chunk_id": "57c94ef9d3ea15479c18df7aeecc4ec0e79bf0bac452164a544ce38683b8bfed",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "transportation",
+    "raw_text": "Airport transfer service is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: transportation] Airport transfer service is available.",
+    "content_length": 38
+  },
+  {
+    "chunk_id": "c9612b7010847cd5ec6d5862ca8df9f5235c5701ecf2d505920e193d4a0e3eb1",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Doctor on call is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Doctor on call is available.",
+    "content_length": 28
+  },
+  {
+    "chunk_id": "be51e93bbd6777ff4d34c9a06c10382271c7c85129f4489674667018d1e09058",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Wheelchair assistance is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Wheelchair assistance is available.",
+    "content_length": 35
+  },
+  {
+    "chunk_id": "e9b7340ecd3c8ec480fb1f5c33368db2d1b056b1dda04ec09c87e565c4e87938",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Babysitting service can be arranged upon request.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Babysitting service can be arranged upon request.",
+    "content_length": 49
+  },
+  {
+    "chunk_id": "fb62e3a4bdfab34bece432a187a8b9737fa15b08d56d7172f4a3fb9a0776172a",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Wake-up call service is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Wake-up call service is available.",
+    "content_length": 34
+  },
+  {
+    "chunk_id": "7a1412ad6f7976c776e82e219ec138e1b10a081851b40529aaad7acc668132cf",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "general",
+    "raw_text": "Luggage assistance is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: general] Luggage assistance is available.",
+    "content_length": 32
+  },
+  {
+    "chunk_id": "07175d516667f1628e560e77fa4e0d43d301e42f5a101e42467d45778bb646e8",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "amenities",
+    "subsection": "hours",
+    "raw_text": "Room service is available 24 hours a day.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: amenities] [Subsection: hours] Room service is available 24 hours a day.",
+    "content_length": 41
+  },
+  {
+    "chunk_id": "1d47f8993330147a96fd820530aecc9bbf96af90cf757267ee00e43326f27275",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "Harbor Kitchen serves breakfast from 7:00 AM to 10:30 AM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] Harbor Kitchen serves breakfast from 7:00 AM to 10:30 AM.",
+    "content_length": 57
+  },
+  {
+    "chunk_id": "ac9a771d1bf51cd5b6284d63cce6e22e3e7fa3b452c14b1d0f5f2d48f520bdcf",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "Harbor Kitchen serves lunch from 12:00 PM to 3:00 PM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] Harbor Kitchen serves lunch from 12:00 PM to 3:00 PM.",
+    "content_length": 53
+  },
+  {
+    "chunk_id": "f04e0a1226e50c67a1746947f71c1dd9f2c8a15cfd3e85df0a033ef1bb279cc7",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "Harbor Kitchen serves dinner from 7:00 PM to 11:00 PM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] Harbor Kitchen serves dinner from 7:00 PM to 11:00 PM.",
+    "content_length": 54
+  },
+  {
+    "chunk_id": "197f116be98412811de0e21f74aa98234fe5a44fa94a2b21d55b01c62e42a81f",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "Sky Lounge operates from 5:00 PM to 1:00 AM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] Sky Lounge operates from 5:00 PM to 1:00 AM.",
+    "content_length": 44
+  },
+  {
+    "chunk_id": "4d18dd4200580bf750dc0921ef71ff44da9760650a70fb7eb0d0adf432c77f41",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "The hotel offers vegetarian and vegan dining options.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] The hotel offers vegetarian and vegan dining options.",
+    "content_length": 53
+  },
+  {
+    "chunk_id": "a2f03c3d6ad401882df5862d0b82dd4b2c845ae1ebc0bcf16d055e7a2438889f",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "Buffet breakfast costs ₹850 per guest.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] Buffet breakfast costs ₹850 per guest.",
+    "content_length": 38
+  },
+  {
+    "chunk_id": "13b3b143b0b8f69c5c7a130b93d1014aaabcf1d0861f916bebcf24731da1cff1",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "Children under 6 receive complimentary breakfast.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] Children under 6 receive complimentary breakfast.",
+    "content_length": 49
+  },
+  {
+    "chunk_id": "6b2cbbd84ec71297fdb9b65606ce8bf82cae6bb031676c6aac2096cb8229c33c",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "dining",
+    "raw_text": "Private dining arrangements are available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: dining] Private dining arrangements are available.",
+    "content_length": 42
+  },
+  {
+    "chunk_id": "f8201ba75e501262f34ad6045bb47c121504270794af6df2eb0652a7b856530a",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "restaurants",
+    "subsection": "rooms",
+    "raw_text": "Special dietary requests can be accommodated.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: restaurants] [Subsection: rooms] Special dietary requests can be accommodated.",
+    "content_length": 45
+  },
+  {
+    "chunk_id": "ea22ba97566664b1be529be0148621132c8641ef731009d7a8913705e950f09e",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "cancellation",
+    "raw_text": "Cancellation is free up to 48 hours before arrival.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: cancellation] Cancellation is free up to 48 hours before arrival.",
+    "content_length": 51
+  },
+  {
+    "chunk_id": "3797edfa1eafefffd85b608b2fc6fe660577995dbfa131c6ea85380ac0873c98",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "cancellation",
+    "raw_text": "Cancellations within 48 hours incur a one-night charge.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: cancellation] Cancellations within 48 hours incur a one-night charge.",
+    "content_length": 55
+  },
+  {
+    "chunk_id": "ae3bd1caffcfb260019fb1894f27c6a713adc4150041fe0ada2b3210e51322da",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "cancellation",
+    "raw_text": "No-show reservations incur a one-night charge.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: cancellation] No-show reservations incur a one-night charge.",
+    "content_length": 46
+  },
+  {
+    "chunk_id": "dfbcb97c091792510a470503cc8e4cbc62a73b2e0e913f447938d625b95d2b85",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "rooms",
+    "raw_text": "Children under 6 years stay free when sharing existing bedding.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: rooms] Children under 6 years stay free when sharing existing bedding.",
+    "content_length": 63
+  },
+  {
+    "chunk_id": "98e224bd8e62bf863d293d59ee117e536eb1c0fd0d5b97909e8184a9cce83d66",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "general",
+    "raw_text": "Pets are not allowed on the hotel premises.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: general] Pets are not allowed on the hotel premises.",
+    "content_length": 43
+  },
+  {
+    "chunk_id": "2d7541ea95ae5218695f2b4b2179032323d93b05b938fe641bb021afc19a916d",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "general",
+    "raw_text": "Registered service dogs and guide dogs are permitted with valid documentation.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: general] Registered service dogs and guide dogs are permitted with valid documentation.",
+    "content_length": 78
+  },
+  {
+    "chunk_id": "3d0e7c4564d3521fcc50c1123fa1621c90f3c87ed6de2008a2e74151d0946a5b",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "rooms",
+    "raw_text": "Smoking is prohibited inside guest rooms and indoor public areas.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: rooms] Smoking is prohibited inside guest rooms and indoor public areas.",
+    "content_length": 65
+  },
+  {
+    "chunk_id": "492fbdbac2f48cf1016068469fecae5d456d1e462a28cd7a067b379a85e7e651",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "pricing",
+    "raw_text": "A deep cleaning fee of ₹10000 will be charged for smoking violations inside guest rooms.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: pricing] A deep cleaning fee of ₹10000 will be charged for smoking violations inside guest rooms.",
+    "content_length": 88
+  },
+  {
+    "chunk_id": "433b185e0062c2196a28bd7a59f3d960fd30a517aba6839f5bd0bfce860522e3",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "general",
+    "raw_text": "Smoking is permitted only in designated outdoor areas.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: general] Smoking is permitted only in designated outdoor areas.",
+    "content_length": 54
+  },
+  {
+    "chunk_id": "16c8ea7d3f3936e039161bf7ace291f041d904e7bf5042041dfd5afd800cb419",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "hours",
+    "raw_text": "Valid government-issued identification is required at check-in.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: hours] Valid government-issued identification is required at check-in.",
+    "content_length": 63
+  },
+  {
+    "chunk_id": "e5a3bb9681e0573f3099c4fa3693db911e1d1a8a6a6759ecf5e0985d5f35c8c4",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "hours",
+    "raw_text": "Late check-out is subject to availability.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: hours] Late check-out is subject to availability.",
+    "content_length": 42
+  },
+  {
+    "chunk_id": "3c5d5c869919affffe8f6a99e59531987def89fa377f88e84b3db9f2e9e5dd4b",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "hours",
+    "raw_text": "Late check-out between 12:00 PM and 3:00 PM incurs a 50% half-day room charge.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: hours] Late check-out between 12:00 PM and 3:00 PM incurs a 50% half-day room charge.",
+    "content_length": 78
+  },
+  {
+    "chunk_id": "6dc161dfb92dac258d82e22086a2a21450d316500e609766325c2c96ee265e51",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "hours",
+    "raw_text": "Late check-out after 3:00 PM incurs a full-night room charge.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: hours] Late check-out after 3:00 PM incurs a full-night room charge.",
+    "content_length": 61
+  },
+  {
+    "chunk_id": "733393738a57d0be59b57e53879306aae322f4e4a7f7876381646d25650b4e39",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "hours",
+    "raw_text": "Early check-in is subject to availability.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: hours] Early check-in is subject to availability.",
+    "content_length": 42
+  },
+  {
+    "chunk_id": "88c0e60051ce3ed2656f3d993085df8aac230dd5aec2f8a5b31c0dd93b9d23fc",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "hours",
+    "raw_text": "Security deposit may be required during check-in.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: hours] Security deposit may be required during check-in.",
+    "content_length": 49
+  },
+  {
+    "chunk_id": "5a7be230085b448ad8a78d228ec9c3dbd705799f5345e92aac9be0a17059da1c",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "general",
+    "raw_text": "Outside food delivery is permitted.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: general] Outside food delivery is permitted.",
+    "content_length": 35
+  },
+  {
+    "chunk_id": "4083f6451f2748f946ade047b7dcff5cb20d3b7f527cfc86eedf8b0de52c8b3c",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "policies",
+    "subsection": "rooms",
+    "raw_text": "Guests must be at least 18 years old to check in.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: policies] [Subsection: rooms] Guests must be at least 18 years old to check in.",
+    "content_length": 49
+  },
+  {
+    "chunk_id": "db1ebdd1bdb6dfc7d120ca06d6b7dd136ab95cf54c786ed0772050dcdbd271ba",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "transportation",
+    "subsection": "transportation",
+    "raw_text": "Mumbai International Airport is approximately 20 minutes away by car.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: transportation] [Subsection: transportation] Mumbai International Airport is approximately 20 minutes away by car.",
+    "content_length": 69
+  },
+  {
+    "chunk_id": "b00ec38e31684cb993fc877f5d991c8e1c2d014280e14f26703c91c6fcfa01ca",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "transportation",
+    "subsection": "transportation",
+    "raw_text": "Airport transfer costs ₹1500 per trip.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: transportation] [Subsection: transportation] Airport transfer costs ₹1500 per trip.",
+    "content_length": 38
+  },
+  {
+    "chunk_id": "375ce1727918717790b1ec582c4667aea96301d2012bb763297cc552bd858599",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "transportation",
+    "subsection": "transportation",
+    "raw_text": "Metro station is located 500 meters from the hotel.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: transportation] [Subsection: transportation] Metro station is located 500 meters from the hotel.",
+    "content_length": 51
+  },
+  {
+    "chunk_id": "584ff9128771cc1bbac7670e2bd9d49fc32f6d14332a7297c4e754d93447ae0c",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "transportation",
+    "subsection": "transportation",
+    "raw_text": "Taxi booking assistance is available through the concierge.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: transportation] [Subsection: transportation] Taxi booking assistance is available through the concierge.",
+    "content_length": 59
+  },
+  {
+    "chunk_id": "4eb238a4c46f1f5e1f459f849ccc8af4da86be00334d201f10baf40cf6e19166",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "transportation",
+    "subsection": "transportation",
+    "raw_text": "Private chauffeur service can be arranged.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: transportation] [Subsection: transportation] Private chauffeur service can be arranged.",
+    "content_length": 42
+  },
+  {
+    "chunk_id": "bdaa59e09e153a0a4ff38adc4ca592b1690630374c9e82d9abc9e362b94be00a",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "transportation",
+    "subsection": "transportation",
+    "raw_text": "Car rental services are available upon request.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: transportation] [Subsection: transportation] Car rental services are available upon request.",
+    "content_length": 47
+  },
+  {
+    "chunk_id": "413fb06da7643b4afba24f8c798000a5448dfd5bbddd28ccd224159ef721b2fe",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "payments",
+    "subsection": "transportation",
+    "raw_text": "The hotel accepts Visa cards.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: payments] [Subsection: transportation] The hotel accepts Visa cards.",
+    "content_length": 29
+  },
+  {
+    "chunk_id": "605b2927b3451886b13a7147475c5f4cda79a76aff5494d79e00fac9cf7fa328",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "payments",
+    "subsection": "transportation",
+    "raw_text": "The hotel accepts Mastercard.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: payments] [Subsection: transportation] The hotel accepts Mastercard.",
+    "content_length": 29
+  },
+  {
+    "chunk_id": "c0e8b0eed49da37f57359de3831201a607e3987aae7bd35448f0f4ee632cd9e5",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "payments",
+    "subsection": "transportation",
+    "raw_text": "The hotel accepts American Express cards.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: payments] [Subsection: transportation] The hotel accepts American Express cards.",
+    "content_length": 41
+  },
+  {
+    "chunk_id": "418eb2413987031a7a40d20e4fc61e54da6d8d23d7abc99ec5868180fa286996",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "payments",
+    "subsection": "payments",
+    "raw_text": "The hotel accepts UPI payments.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: payments] [Subsection: payments] The hotel accepts UPI payments.",
+    "content_length": 31
+  },
+  {
+    "chunk_id": "15b8cc2e8b8c927ad40f374836ba2f376f63e4041d47c5a50d77d3683847bad3",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "payments",
+    "subsection": "general",
+    "raw_text": "Invoices can be provided upon request.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: payments] [Subsection: general] Invoices can be provided upon request.",
+    "content_length": 38
+  },
+  {
+    "chunk_id": "941a0098496e80fb8fa84eb45069ccf9187750f8678e69f946ba0ad62d74ccf8",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Wedding planning services are available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Wedding planning services are available.",
+    "content_length": 40
+  },
+  {
+    "chunk_id": "11217e5b7c7252d53b234d57392ca856ba5646f47854848c4d8caf17996e7972",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Corporate event hosting is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Corporate event hosting is available.",
+    "content_length": 37
+  },
+  {
+    "chunk_id": "89bb231dbce5077cc77619419de86254abd0a5201637a63941844ade02a24ff4",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Conference facilities support up to 300 attendees.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Conference facilities support up to 300 attendees.",
+    "content_length": 50
+  },
+  {
+    "chunk_id": "12d289fa6d27254a0332099564e46bb457694219eb9baa3ffa1e02f94e686ab6",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Printing and scanning services are available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Printing and scanning services are available.",
+    "content_length": 45
+  },
+  {
+    "chunk_id": "271512d01f7067550b5cfd9468e389ddfbf5620d4b9e4b1bf2f94c7dd48fa845",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Photocopy services are available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Photocopy services are available.",
+    "content_length": 33
+  },
+  {
+    "chunk_id": "3e65968f2bffffcdaad1fe364aa06e743d5063646e105f868cc0e213b3fb5e16",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Courier services are available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Courier services are available.",
+    "content_length": 31
+  },
+  {
+    "chunk_id": "9f1eb7686603758856ba63515ec1778e9d135ca43ab3141c63f9ac4c7bc03d3b",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Lost and found assistance is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Lost and found assistance is available.",
+    "content_length": 39
+  },
+  {
+    "chunk_id": "bb18ed248501a340ac4868f764bf4e70011cf27dceec0abe9227bd194e547811",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Travel desk assistance is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Travel desk assistance is available.",
+    "content_length": 36
+  },
+  {
+    "chunk_id": "ad0402a38ee22cf5aa6a588cf60c2e13be1ff50df850fe920327e4544520477a",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Tour booking assistance is available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Tour booking assistance is available.",
+    "content_length": 37
+  },
+  {
+    "chunk_id": "d28c678e6f237633a1eb6cfd772682d3523c49c2c3ab9e280b8ce073a9db5c2b",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "services",
+    "subsection": "general",
+    "raw_text": "Multilingual staff are available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: services] [Subsection: general] Multilingual staff are available.",
+    "content_length": 33
+  },
+  {
+    "chunk_id": "0ff74c6f8d0d6267922ea936ebdfadecf78e7c2a1443e50bc8aa627e80f4d5dc",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "hours",
+    "raw_text": "Check-in time is 2:00 PM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: hours] Check-in time is 2:00 PM.",
+    "content_length": 25
+  },
+  {
+    "chunk_id": "5dce77a57a195a47955bf7803f07b7bf4ae605882f98daa7d6715a9c743044a3",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "hours",
+    "raw_text": "Check-out time is 12:00 PM.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: hours] Check-out time is 12:00 PM.",
+    "content_length": 27
+  },
+  {
+    "chunk_id": "aec8e085d786cb7efe8ffe3de64f185e3829d280a2a164f3c023552a025ac687",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "hours",
+    "raw_text": "Front desk operates 24 hours a day.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: hours] Front desk operates 24 hours a day.",
+    "content_length": 35
+  },
+  {
+    "chunk_id": "fe17b8e736ea31897f30e36fedde9c3596d905d30227dffe13fa565e6289541c",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "transportation",
+    "raw_text": "The hotel is located 8 km from Mumbai International Airport.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: transportation] The hotel is located 8 km from Mumbai International Airport.",
+    "content_length": 60
+  },
+  {
+    "chunk_id": "fbc9d434b952ccee92166fe830ef22ade9c7f4c563fcd11fe718f61d12c3e8b3",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "internet",
+    "raw_text": "Complimentary WiFi is available throughout the property.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: internet] Complimentary WiFi is available throughout the property.",
+    "content_length": 56
+  },
+  {
+    "chunk_id": "14277a1285b0e1f4ee01e53d3e9019e4873f861c3d113c658302bddbcab3f93c",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "hours",
+    "raw_text": "Free luggage storage is available before check-in and after check-out.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: hours] Free luggage storage is available before check-in and after check-out.",
+    "content_length": 70
+  },
+  {
+    "chunk_id": "8b87aec370cfd5b385e0385f1dbd771b0f81950d230e0825c0102b1ab7c4e19e",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "general",
+    "raw_text": "Currency exchange services are available at the front desk.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: general] Currency exchange services are available at the front desk.",
+    "content_length": 59
+  },
+  {
+    "chunk_id": "be04ef42b4966a70c1672f218d83267141ae059f4d72a97e2f2479ccc5e1d98b",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "general",
+    "raw_text": "Concierge assistance is available 24/7.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: general] Concierge assistance is available 24/7.",
+    "content_length": 39
+  },
+  {
+    "chunk_id": "e3223feacbe5532bb3a3f402d9dbcaf42368f23d909302615695f2692b98dc95",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "rooms",
+    "raw_text": "The hotel has 220 guest rooms.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: rooms] The hotel has 220 guest rooms.",
+    "content_length": 30
+  },
+  {
+    "chunk_id": "572595acd59e8c677920a97e43b613fae54e8a7991f07d0b69cdbce32b9632b3",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "general_information",
+    "subsection": "general",
+    "raw_text": "The hotel was renovated in 2024.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: general_information] [Subsection: general] The hotel was renovated in 2024.",
+    "content_length": 32
+  },
+  {
+    "chunk_id": "2969556eefee607b0b41ae7042f541d9c3403555cc7cb3a7823093ed6b3dddbb",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "faq",
+    "subsection": "internet",
+    "raw_text": "WiFi is free throughout the hotel.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: faq] [Subsection: internet] WiFi is free throughout the hotel.",
+    "content_length": 34
+  },
+  {
+    "chunk_id": "f16dad6c5f059efbe4c443b899e45ca0f2d46fa8f82e6aba18bed0df1788e6c1",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "faq",
+    "subsection": "recreation",
+    "raw_text": "The hotel has a rooftop swimming pool.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: faq] [Subsection: recreation] The hotel has a rooftop swimming pool.",
+    "content_length": 38
+  },
+  {
+    "chunk_id": "9534d6b457ca269550ceaffaddbb5ec8d23309817b801d6f44c18c43d9a572ab",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "faq",
+    "subsection": "transportation",
+    "raw_text": "Airport transfers are available.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: faq] [Subsection: transportation] Airport transfers are available.",
+    "content_length": 32
+  },
+  {
+    "chunk_id": "b6aedeaafd9cd4a658a36f0c857a814a2455f166be3899d3703121ea1a7c69bd",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "faq",
+    "subsection": "hours",
+    "raw_text": "The gym operates 24 hours a day.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: faq] [Subsection: hours] The gym operates 24 hours a day.",
+    "content_length": 32
+  },
+  {
+    "chunk_id": "a657825c4bb8d17e40dfd845dc0ebc5cab13a688bdec26a9dab9b6e76489e89f",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "faq",
+    "subsection": "pricing",
+    "raw_text": "Extra beds are available for ₹1500 per night.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: faq] [Subsection: pricing] Extra beds are available for ₹1500 per night.",
+    "content_length": 45
+  },
+  {
+    "chunk_id": "49e3af023f6668040e21bea1a249c60929164e48213cb4250ab1e78daddc5211",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "faq",
+    "subsection": "general",
+    "raw_text": "The hotel does not allow pets.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: faq] [Subsection: general] The hotel does not allow pets.",
+    "content_length": 30
+  },
+  {
+    "chunk_id": "58dffc0bc01521b42d223638af66a4a8f3a972d76ac1eda385a9998816203239",
+    "hotel_name": "StayChat Grand Hotel",
+    "category": "faq",
+    "subsection": "hours",
+    "raw_text": "The hotel provides 24-hour room service.",
+    "contextual_text": "[Hotel: StayChat Grand Hotel] [Category: faq] [Subsection: hours] The hotel provides 24-hour room service.",
+    "content_length": 40
+  }
+]

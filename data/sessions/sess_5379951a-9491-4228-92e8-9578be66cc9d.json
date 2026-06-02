@@ -1,0 +1,21 @@
+{
+  "session_id": "5379951a-9491-4228-92e8-9578be66cc9d",
+  "created_at": 1780402544.185895,
+  "last_activity": 1780402658.917423,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello",
+      "timestamp": 1780402658.886609,
+      "intent": "greeting",
+      "language": "english"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have that information right now. Let me connect you with our staff at the front desk, or you can call us at +91-22-5555-1234.",
+      "timestamp": 1780402658.917423,
+      "intent": "greeting",
+      "language": "english"
+    }
+  ]
+}
