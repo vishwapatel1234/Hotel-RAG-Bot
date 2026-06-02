@@ -48,7 +48,7 @@ VITE_GEMINI_API_KEY=your_actual_gemini_api_key_here
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser. By default, you can use the built-in "Local Simulator" or toggle to the "Live AI Pipeline" via the settings gear in the top right corner.
+Open website in your browser. By default, you can use the built-in "Local Simulator" or toggle to the "Live AI Pipeline" via the settings gear in the top right corner.
 
 ## 🛠️ Tech Stack
 - **Frontend**: React (Vite), TypeScript, TailwindCSS, Lucide-React
