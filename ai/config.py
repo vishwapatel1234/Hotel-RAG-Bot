@@ -40,8 +40,8 @@ class Config:
         self.metadata_path: Path = FAISS_DIR / "metadata.json"
 
         # Model Declarations
-        self.embedding_model: str = "models/embedding-001"
-        self.embedding_dimension: int = 768  # embedding-001 default dimensions
+        self.embedding_model: str = "models/gemini-embedding-001"
+        self.embedding_dimension: int = 3072  # gemini-embedding-001 dimensions
         self.batch_size: int = 16
         
         # FAISS Index Configuration
