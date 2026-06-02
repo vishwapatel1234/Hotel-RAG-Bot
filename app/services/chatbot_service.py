@@ -131,7 +131,7 @@ class ChatbotService:
         logger.info(f"Condensed query for retrieval: '{expanded_query}'")
 
         # 5. Document Retrieval using expanded query
-        retrieval_payload = self.retriever.retrieve(expanded_query, top_k=4)
+        retrieval_payload = self.retriever.retrieve(expanded_query, top_k=8)
         
         # 6. Post-Retrieval Context Validation Gate
         retrieval_check = self.guardrails.evaluate_retrieval(retrieval_payload, language=lang)

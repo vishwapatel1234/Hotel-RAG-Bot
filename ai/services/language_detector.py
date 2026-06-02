@@ -57,7 +57,7 @@ class LanguageDetector:
         # Look for specific Hinglish lexical indicators
         hinglish_indicators = [
             "hai", "baje", "kitna", "kya", "hoga", "aap", "ko", "par", "se", "kar", "sakte",
-            "hoon", "acha", "mein", "room", "pool", "wifi", "breakfast", "dikhao", "milega"
+            "hoon", "acha", "mein", "dikhao", "milega", "kab", "kaise", "haan", "nahi"
         ]
         
         words = set(query_cleaned.split())
