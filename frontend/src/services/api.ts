@@ -369,18 +369,24 @@ const matchLocalRAG = (query: string, sessionId?: string): RetrievedChunk[] => {
     const hasHinglishPronoun = hinglishPronouns.test(cleaned);
 
     if (hasEnglishPronoun || hasHinglishPronoun) {
-      if (mem.lastRoomType) cleaned += " " + mem.lastRoomType + " room";
-      if (mem.lastSubsection) cleaned += " " + mem.lastSubsection;
-      if (mem.lastTopic) cleaned += " " + mem.lastTopic;
-      if (mem.lastCategory) cleaned += " " + mem.lastCategory;
+      if (mem.lastRoomType && mem.lastRoomType !== "all_rooms") {
+        cleaned += " " + mem.lastRoomType;
+      } else if (mem.lastSubsection && mem.lastSubsection !== "all_rooms") {
+        cleaned += " " + mem.lastSubsection.replace(/_/g, " ");
+      } else if (mem.lastCategory) {
+        cleaned += " " + mem.lastCategory;
+      }
     }
   }
 
   // Step 3: Extract meaningful words, remove punctuation and stop words
-  const words = cleaned
+  const wordsArray = cleaned
     .replace(/[.,/#!$%^&*;:{}=\-_`~()?।]/g, " ")
     .split(/\s+/)
     .filter(w => w.length > 1 && !STOP_WORDS.has(w));
+  
+  // Deduplicate words so appended memory context doesn't artificially inflate keyword scores
+  const words = Array.from(new Set(wordsArray));
 
   if (words.length === 0) return [];
 
