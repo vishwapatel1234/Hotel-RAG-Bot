@@ -21,7 +21,7 @@ class QueryRouter:
     # Intents requiring FAISS retrieval
     RETRIEVAL_INTENTS = {
         "booking_inquiry", "amenity_question", "room_question",
-        "policy_question", "restaurant_question", "transportation_question"
+        "policy_question", "restaurant_question", "transportation_question", "general_inquiry"
     }
 
     def __init__(self, classifier: IntentClassifier, detector: LanguageDetector) -> None:

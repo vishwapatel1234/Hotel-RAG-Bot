@@ -53,10 +53,10 @@ class EvidenceChecker:
         top_score = diagnostics.get("top_score", 0.0)
         status = diagnostics.get("status", "low_confidence")
 
-        if status == "low_confidence" or top_score < self.confidence_threshold:
+        if status == "low_confidence":
             reason = (
-                f"Low retrieval confidence: Top score ({top_score:.2f}) "
-                f"fails system safety threshold ({self.confidence_threshold:.2f})."
+                f"Low retrieval confidence: Confidence Engine status is low_confidence "
+                f"(Top vector score: {top_score:.2f})."
             )
             logger.warning(f"Evidence Checker Blocked: {reason}")
             return {"decision": "escalate", "reason": "low_confidence"}

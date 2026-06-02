@@ -21,7 +21,7 @@ class IntentClassifier:
 
     INTENTS = {
         "booking_inquiry", "amenity_question", "room_question", "policy_question",
-        "restaurant_question", "transportation_question", "complaint", "greeting",
+        "restaurant_question", "transportation_question", "general_inquiry", "complaint", "greeting",
         "staff_command", "escalation_request", "unknown"
     }
 
@@ -128,6 +128,7 @@ class IntentClassifier:
             "- 'policy_question': Cancellation timelines, pets, smoking, IDs.\n"
             "- 'restaurant_question': Harbor Kitchen/Sky Lounge operational hours, breakfasts.\n"
             "- 'transportation_question': Airport transfers, taxi costs, metro distance.\n"
+            "- 'general_inquiry': Hotel location, address, contact info, general FAQs.\n"
             "- 'complaint': Dissatisfaction, issues.\n"
             "- 'greeting': Normal greetings.\n"
             "- 'staff_command': Commands starting with #.\n"
