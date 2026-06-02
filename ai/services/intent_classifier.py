@@ -25,7 +25,7 @@ class IntentClassifier:
         "staff_command", "escalation_request", "unknown"
     }
 
-    def __init__(self, api_key: str, model_name: str = "models/gemini-1.5-flash") -> None:
+    def __init__(self, api_key: str, model_name: str = "models/gemini-2.5-flash") -> None:
         """
         Initializes the Intent Classifier.
         

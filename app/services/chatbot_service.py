@@ -43,8 +43,8 @@ class ChatbotService:
         self.memory_service = MemoryService(session_manager=self.session_manager, max_exchanges=10)
         
         # 2. Initialize NLU query routing
-        self.classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-1.5-flash")
-        self.detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-1.5-flash")
+        self.classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-2.5-flash")
+        self.detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-2.5-flash")
         self.router = QueryRouter(classifier=self.classifier, detector=self.detector)
         
         # 3. Initialize embedder & retriever
@@ -99,12 +99,20 @@ class ChatbotService:
 
         # 3. Early Route check for Out-of-Scope / direct bypasses
         if profile["route"] == "bypass":
-            logger.info("NLU steered query to direct bypass. Compiling escalation response.")
-            handoff = self.guardrails.escalation_service.compile_handoff(
-                language=lang,
-                reason=f"bypass_intent_{intent}"
-            )
-            response = handoff["message"]
+            logger.info(f"NLU steered query to direct bypass for intent: {intent}")
+            if intent == "greeting":
+                if lang == "hindi":
+                    response = "नमस्ते! मैं StayChat का एआई असिस्टेंट हूँ। मैं आपकी होटल बुकिंग, कमरे या सुविधाओं के बारे में कैसे मदद कर सकता हूँ?"
+                elif lang == "hinglish":
+                    response = "Namaste! Main StayChat AI Assistant hoon. Main aapki hotel booking, rooms ya amenities ke baare mein kaise help kar sakta hoon?"
+                else:
+                    response = "Hello! I am the StayChat AI Assistant. How can I help you with your hotel booking, rooms, or amenities today?"
+            else:
+                handoff = self.guardrails.escalation_service.compile_handoff(
+                    language=lang,
+                    reason=f"bypass_intent_{intent}"
+                )
+                response = handoff["message"]
             
             self.memory_service.add_message(session_id, "user", message, intent, lang)
             self.memory_service.add_message(session_id, "assistant", response, intent, lang)

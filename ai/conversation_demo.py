@@ -55,8 +55,8 @@ def run_conversation_demo() -> None:
     embedder = EmbeddingService(api_key=config.api_key, model_name=config.embedding_model)
     retriever = RetrievalService(embedding_service=embedder)
     
-    classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-1.5-flash")
-    detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-1.5-flash")
+    classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-2.5-flash")
+    detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-2.5-flash")
     router = QueryRouter(classifier=classifier, detector=detector)
     
     guardrails = GuardrailService()

@@ -33,7 +33,7 @@ class GeminiClientRotator:
         self.models_sequence = [
             "models/gemini-2.5-flash",
             "models/gemini-2.0-flash",
-            "models/gemini-1.5-flash"
+            "models/gemini-2.5-flash"
         ]
         
         # Keep track of active indices

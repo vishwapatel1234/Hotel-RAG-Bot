@@ -28,8 +28,8 @@ def run_test_suite() -> None:
     print("=========================================================")
     
     # 1. Initialize services
-    classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-1.5-flash")
-    detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-1.5-flash")
+    classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-2.5-flash")
+    detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-2.5-flash")
     router = QueryRouter(classifier=classifier, detector=detector)
     
     embedder = EmbeddingService(api_key=config.api_key, model_name=config.embedding_model)

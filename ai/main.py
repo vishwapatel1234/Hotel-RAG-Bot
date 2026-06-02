@@ -40,8 +40,8 @@ class StayChatOrchestrator:
         logger.info("Bootstrapping StayChat Safety-First RAG Assistant...")
         
         # 1. Initialize classifiers & router
-        self.classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-1.5-flash")
-        self.detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-1.5-flash")
+        self.classifier = IntentClassifier(api_key=config.api_key, model_name="models/gemini-2.5-flash")
+        self.detector = LanguageDetector(api_key=config.api_key, model_name="models/gemini-2.5-flash")
         self.router = QueryRouter(classifier=self.classifier, detector=self.detector)
         
         # 2. Initialize embedder & retriever
