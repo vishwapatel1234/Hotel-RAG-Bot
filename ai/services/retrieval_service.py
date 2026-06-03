@@ -328,8 +328,9 @@ class RetrievalService:
                     # Reconstruct Metadata structure from the mapping
                     chunk = self._metadata[idx]
                     
-                    # Convert L2 Euclidean Distance into Cosine Confidence score
-                    normalized_score = 1.0 / (1.0 + float(dist))
+                    # Convert L2 Euclidean Distance into true Cosine Similarity score
+                    # For normalized embeddings, Cosine Similarity = 1 - (L2^2 / 2)
+                    normalized_score = 1.0 - (float(dist) / 2.0)
                     
                     retrieved_chunks.append({
                         "chunk_id": chunk["chunk_id"],
