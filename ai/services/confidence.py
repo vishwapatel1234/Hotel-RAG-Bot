@@ -116,8 +116,8 @@ class ConfidenceEngine:
             category_relevance = 0.0
             logger.warning(f"Category Relevance MISMATCH: Query expected '{expected_category}' -> Chunk category '{chunk_category}'")
 
-        # 3. Compute hybrid score
-        final_score = (0.70 * vector_similarity) + (0.30 * category_relevance)
+        # 3. Compute hybrid score (50% Vector / 50% Category)
+        final_score = (0.50 * vector_similarity) + (0.50 * category_relevance)
         logger.info(f"Hybrid Score calculated: {final_score:.3f} (Vector Similarity: {vector_similarity:.2f}, Cat Relevance: {category_relevance:.1f})")
 
         # 4. Enforce Confidence Threshold Check
