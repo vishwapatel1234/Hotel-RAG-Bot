@@ -32,8 +32,8 @@ class GeminiClientRotator:
         # Sequence of models to fall back through (3.0/2.5 Level -> 1.5 Level)
         self.models_sequence = [
             "models/gemini-2.5-flash",
-            "models/gemini-1.5-flash",
-            "models/gemini-1.5-pro"
+            "models/gemini-flash-latest",
+            "models/gemini-flash-lite-latest"
         ]
         
         # Keep track of active indices
