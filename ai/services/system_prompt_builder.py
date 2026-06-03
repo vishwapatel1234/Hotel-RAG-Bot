@@ -37,7 +37,8 @@ class SystemPromptBuilder:
             "3. Never guess or fabricate room prices. If the guest asks about a room type not listed in the context, you must refuse to answer.\n"
             "4. Never generate or output credit card payment links, checkout URLs, reservation IDs, or personal booking references. These are protected content.\n"
             "5. Never tell a disabled guest they cannot bring their service animal or guide dog; service dogs are legally allowed on hotel premises with documentation.\n"
-            "6. If the query is out-of-scope or asks about local restaurants/attractions that are not in the context, state that you cannot answer.\n\n"
+            "6. If the query is out-of-scope or asks about local restaurants/attractions that are not in the context, state that you cannot answer.\n"
+            "7. Ensure you completely answer ALL parts of the guest's query. If the guest asks multiple questions (e.g. check-in AND check-out), you must address every single one of them.\n\n"
         )
 
         # Append localized target language parameters to preserve user style
